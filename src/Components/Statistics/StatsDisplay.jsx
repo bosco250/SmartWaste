@@ -1,7 +1,7 @@
 import React from 'react';
 
 const StatItem = ({ value, label }) => (
-  <div className="text-center">
+  <div className="text-center mb-3">
     <div className="text-3xl font-bold">{value}</div>
     <div className="text-xl font-bold text-[#184b41]">{label}</div>
   </div>
@@ -9,7 +9,7 @@ const StatItem = ({ value, label }) => (
 
 const StatsDisplay = () => {
   return (
-    <div className="flex justify-between mb-[-80px] flex-wrap items-center max-w-3xl py-14 bg-white mx-auto">
+    <div className="flex justify-between mb-[-80px] flex-wrap md:gap-8 items-center max-w-3xl py-14 bg-white mx-5 md:mx-auto">
       <StatItem value="200+" label="Members" />
       <StatItem value="20" label="Waste Banks" />
       <StatItem value="50" label="Waste Bins" />
