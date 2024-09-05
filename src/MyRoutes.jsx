@@ -5,6 +5,8 @@ import App from './App';
 import Register from './Components/Auth/Register';
 import About from './Components/About/About';
 import OutletFile from './Components/Layout/OutletFile';
+import ForgotPassword from './Components/Auth/ForgotPassword';
+import Dashboard from './Components/Dashboard/Dashboard';
 
 function MyRoutes() {
   return (
@@ -15,6 +17,8 @@ function MyRoutes() {
       </Route>
       <Route path='/register' element={<Register/>}/>
       <Route path='/login' element={<Login />} />
+      <Route path='/forgot-password' element={<ForgotPassword />} />
+      <Route path='/dashboard' element={<Dashboard />} />
       
     </Routes>
   );

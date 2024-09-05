@@ -29,7 +29,7 @@ function Login() {
               required
             />
           </div>
-          <div>
+          <div className="relative ">
             <label
               className="block text-sm font-bold mb-2"
               htmlFor="password"
@@ -45,8 +45,9 @@ function Login() {
               onChange={(e) => setPassword(e.target.value)}
               required
             />
+            <Link to='/forgot-password' className="absolute bottom-[-30px] right-0 font-semibold">Forgot password?</Link>
           </div>
-          <div className="flex items-center justify-between">
+          <div className="flex items-center justify-between pt-10">
             <button
               type="submit"
               className="bg-[#184b41] hover:bg-gray-800 text-green-500 font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
