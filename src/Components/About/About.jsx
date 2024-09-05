@@ -2,17 +2,17 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex flex-col items-center py-12 px-8 bg-gray-100 min-h-screen pt-20">
+    <div className="flex flex-col items-center py-12 px-8 bg-gray-100 min-h-screen pt-24">
       <div className="max-w-4xl w-full text-center">
         <h1 className="text-3xl md:text-4xl font-bold text-green-600 mb-6">
-          About TMS Ltd
+          About SmartWaste
         </h1>
         <p className="text-gray-700 text-lg mb-8 leading-relaxed">
-          TMS Ltd is a leading public-private partnership transport company
-          established to enhance public transport services across Rwanda and the
-          region. Our mission is to connect isolated communities in rural areas
-          to development opportunities by providing accessible and affordable
-          transportation.
+          SmartWaste is a cutting-edge waste management platform designed to
+          revolutionize the way communities handle waste. Our mission is to
+          enhance environmental sustainability and efficiency by providing
+          innovative waste management solutions that are accessible, effective,
+          and user-friendly.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -21,9 +21,9 @@ const About = () => {
               Our Vision
             </h2>
             <p className="text-gray-700 leading-relaxed">
-              We aim to be a benchmark in the intercity public transport sector,
-              providing modern, comfortable, and secure vehicles that guarantee
-              exceptional service and safety for all passengers.
+              We aspire to be a leader in waste management solutions, promoting
+              a cleaner and healthier environment through smart technology,
+              optimized waste processing, and community engagement.
             </p>
           </div>
 
@@ -33,21 +33,24 @@ const About = () => {
             </h2>
             <ul className="list-disc list-inside text-gray-700 space-y-2">
               <li>
-                Deliver high-quality public transport services across the
-                country.
+                Deliver advanced waste management solutions that enhance
+                environmental sustainability.
               </li>
               <li>
-                Regularly connect rural communities with urban centers to remove
-                isolation.
-              </li>
-              <li>Promote and modernize public transportation in Rwanda.</li>
-              <li>
-                Create employment opportunities and contribute to poverty
-                reduction.
+                Provide tools and technologies for efficient waste collection,
+                processing, and recycling.
               </li>
               <li>
-                Ensure customer satisfaction through reliable and efficient
-                service.
+                Engage with communities to promote waste reduction and proper
+                disposal practices.
+              </li>
+              <li>
+                Support local governments and organizations with data-driven
+                insights for better waste management.
+              </li>
+              <li>
+                Foster innovation and continuous improvement in waste management
+                practices.
               </li>
             </ul>
           </div>
@@ -58,11 +61,12 @@ const About = () => {
             Why Choose Us?
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            At TMS Ltd, we are committed to making transportation accessible to
-            everyone. Our fleet of modern vehicles, combined with our dedication
-            to quality service, sets us apart as a reliable and trusted provider
-            in the region. Whether you're traveling for business or leisure, we
-            ensure that you reach your destination safely and comfortably.
+            At SmartWaste, we are dedicated to transforming waste management for
+            a better future. Our platform integrates cutting-edge technology
+            with practical solutions, ensuring that waste is managed efficiently
+            and sustainably. With our user-friendly interface and commitment to
+            innovation, we provide reliable and effective solutions for both
+            communities and organizations.
           </p>
         </div>
       </div>
