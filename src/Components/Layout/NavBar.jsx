@@ -29,18 +29,13 @@ const Navbar = () => {
             gap-[35px] justify-center items-center font-bold leading-6">
               <li className="cursor-pointer hover:text-green-600"><Link to='/'>Home</Link></li>
               <li className="cursor-pointer hover:text-green-600"> <Link to='/about'>About</Link> </li>
+              <li className="cursor-pointer hover:text-green-600"><Link to='/dashboard'>Dashboard</Link> </li>
               <li className="cursor-pointer hover:text-green-600">Projects</li>
               <li className="cursor-pointer hover:text-green-600">Routes</li>
             </ul>
           </div>
         </div>
         <div className="flex mdflex-row items-center gap-5">
-          <div className="flex flex-row rounded-[30px]  ">
-            <input className="rounded-[30px] border border-green-500 h-8" type="text" />
-            <div className="flex justify-center items-center  rounded-full w-7 h-7 ml-[-30px] mt-[2px]">
-              <IoSearch className="text-gray-900"/>
-            </div>
-          </div>
           <div className="flex items-center gap-4">
             <div className="flex justify-center items-center">
               <IoIosNotifications className="h-6 w-6" />
