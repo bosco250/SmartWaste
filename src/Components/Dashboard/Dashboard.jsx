@@ -116,7 +116,7 @@ function Dashboard() {
           <h1 className="text-2xl font-bold hidden sm:block">Welcome! Bosco</h1>
         </header>
         <main className="flex-1 overflow-x-hidden overflow-y-auto">
-          <div className="mt-16 shadow-lg rounded-lg">
+          <div className=" shadow-lg rounded-lg">
             {renderContent()}
           </div>
         </main>
