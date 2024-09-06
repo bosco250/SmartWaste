@@ -13,9 +13,9 @@ const Navbar = () => {
   };
   return (
     <div
-      className="md:fixed md:w-full top-0 left-0 bg-gray-900 z-10
-    py-[30px] px-[50px] md:flex items-center justify-center text-gray-200"
-    >
+  className="md:fixed md:w-full top-0 left-0 bg-gray-900 z-10
+    py-[30px] px-[50px] md:flex items-center justify-center text-gray-200 h-[13vh]"
+>
       <div className="md:flex md:flex-row gap-10 justify-between items-center w-full hidden">
         <div className="flex md:flex-row flex-1 justify-between items-center md:gap-[100px]">
           <div className="flex justify-center items-center">
@@ -32,16 +32,11 @@ const Navbar = () => {
               <li className="cursor-pointer hover:text-green-600"><Link to='/dashboard'>Dashboard</Link> </li>
               <li className="cursor-pointer hover:text-green-600">Projects</li>
               <li className="cursor-pointer hover:text-green-600">Routes</li>
+              <li  className="cursor-pointer hover:text-green-600"><IoIosNotifications className="h-6 w-6" />              </li>
             </ul>
           </div>
         </div>
-        <div className="flex mdflex-row items-center gap-5">
-          <div className="flex items-center gap-4">
-            <div className="flex justify-center items-center">
-              <IoIosNotifications className="h-6 w-6" />
-            </div>
-          </div>
-        </div>
+        
       </div>
       {/* For Mobile navBar */}
       <div
@@ -55,12 +50,6 @@ const Navbar = () => {
           </h1>
         </div>
         <div className="flex gap-6">
-          <div
-            className="flex justify-center items-center rounded-full
-           w-8 h-8"
-          >
-            <IoSearch className="w-7 h-6" />
-          </div>
           <button onClick={toggleIsOpen} className="">
             {isOpen ? (
               <FaXmark className="w-6 h-6" />
@@ -83,6 +72,7 @@ const Navbar = () => {
         >
           <li className="cursor-pointer hover:text-green-600">Home</li>
           <li className="cursor-pointer hover:text-green-600">About</li>
+          <li className="cursor-pointer hover:text-green-600"><Link to='/dashboard'>Dashboard</Link> </li>
           <li className="cursor-pointer hover:text-green-600">Projects</li>
           <li className="cursor-pointer hover:text-green-600">Routes</li>
           <li className=" cursor-pointer hover:text-green-600">Notifications</li>
