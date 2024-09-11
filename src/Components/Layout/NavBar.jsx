@@ -25,7 +25,7 @@ const Navbar = () => {
           </div>
           <div>
             <ul className="nav-items flex md:flex-row list-none text-[20px]
-            gap-[35px] justify-center items-center font-bold leading-6">
+            gap-[5px] justify-center items-center font-bold leading-6">
               <li className="cursor-pointer px-3 py-2 rounded-md hover:bg-green-700 hover:text-green-200"><Link to='/'>Home</Link></li>
               <li className="cursor-pointer px-3 py-2 rounded-md hover:bg-green-700 hover:text-green-200"> <Link to='/about'>About</Link> </li>
               <li className="cursor-pointer px-3 py-2 rounded-md hover:bg-green-700 hover:text-green-200"><Link to='/dashboard'>Dashboard</Link> </li>
