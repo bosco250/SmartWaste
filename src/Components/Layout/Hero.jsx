@@ -10,7 +10,7 @@ const Hero = () => {
         SmartWaste helps streamline waste collection and management with real-time tracking and route optimization. 
         Join us in creating a cleaner future—use SmartWaste for efficient, sustainable waste management.
       </p>
-      <Link to='/login' className="bg-white text-green-600 font-semibold py-2 px-4  rounded hover:bg-gray-200">
+      <Link to='/login' className="bg-white text-[#184b41] font-semibold py-2 px-4  rounded hover:bg-gray-200">
         Get Started
       </Link>
       </div>
